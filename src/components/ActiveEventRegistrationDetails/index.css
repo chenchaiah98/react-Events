@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.register-image {
+  width: 50%;
+}
+.registeration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
+  text-align: center;
+}
+.button {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #0967d2;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}

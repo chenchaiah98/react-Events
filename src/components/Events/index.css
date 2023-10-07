@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.event-main-app {
+  display: flex;
+  min-height: 100vh;
+}
+.event-container {
+  width: calc(100vw - 50vw);
+  background-color: #323f4b;
+  padding: 10px 30px;
+  color: #ffff;
+}
+.active-container {
+  width: calc(100vw - 50vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+.event-image {
+  width: 230px;
+}
